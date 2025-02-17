@@ -24,7 +24,7 @@ start_txt = """**
 
 
 
-@app.on_message(filters.command("repo"))
+@app.on_message(filters.command("mmrepo"))
 async def start(_, msg):
     buttons = [
         [ 
@@ -84,7 +84,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[•ʙᴏᴛ-ᴏᴡɴᴇʀ•](https://t.me/UTTAM470) | [•ᴜᴘᴅᴀᴛᴇs•](https://t.me/BABY09_WORLD)
+        text = f"""[•ʙᴏᴛ-ᴏᴡɴᴇʀ•](https://t.me/Legend_mickey) | [•ᴜᴘᴅᴀᴛᴇs•](https://t.me/The_Incricible)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
