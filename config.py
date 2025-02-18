@@ -28,7 +28,7 @@ OWNER_ID = int(getenv("OWNER_ID"))
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "MISTY_MUSICBOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Mɪsᴛʏ ꭙ Mᴜsɪᴄ")
+BOT_NAME = getenv("BOT_NAME" , "ᴛꜱᴇʀɪᴇꜱ ꭙ ᴍᴜsɪᴄ")
 # ________________________________________________________________________________#
 # Fill these variables if you're deploying on heroku.
 # Your heroku app name
